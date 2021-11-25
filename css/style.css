@@ -134,8 +134,9 @@ body {
     color: #2196F3;
 }
 
-.half-logo {color: var(--second-title-color);} 
+.half-logo {color:#000;} 
 
+.half-logo-footer { color: #fff;}
 
 
 /* .................container........................................................... */
