@@ -1,0 +1,497 @@
+/* ...................root........................................................... */
+
+
+:root {
+
+    --main-title-color: #ffffff;
+    --second-title-color:#212121;
+    --main-text-color:#757575;
+    --second-text-color: rgba(255, 255, 255, 0.6);
+    --third-text-color:#ffffff;
+    --accent-color:#2196F3;
+    --maine-btn-color:#F5F4FA;
+    --second-btn-color:#212121;
+    --background-page-color:#2F303A;
+    --background-team-color:#F5F4FA;
+    --background-work-color:#E5E5E5;
+    --border-card-color:#EEEEEE;
+    }
+
+
+/* ................шрифты,  и reset........................................................... */
+
+
+p, h1, h2, h3, h4 ,h5 { margin: 0; }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+max-width: 100%;
+height: auto;}
+
+body { color:var(--second-title-color) }
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.link {
+
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list { list-style: none; }
+
+
+/* .....................section........................................................... */
+
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+/* ............current header page one........................................................... */
+
+
+.header-item .header-link.current {color: var(--accent-color);}
+
+.buttons .button.current {
+
+    color: var(--main-title-color);
+    background-color: var(--accent-color);
+}
+
+.list-contacts .link-contact.current {color: var(--accent-color);}
+
+
+/* ..........hover focus header-link......... */
+
+
+.header-link:hover,
+.header-link:focus {color: var(--accent-color);}
+
+.link-contact:hover,
+.link-contact:focus {color:var(--accent-color)}
+
+
+/* .............link hover focus........... */
+
+
+.link-point:hover,
+.link-point:focus {color:var(--accent-color)}
+
+.footer-contact:hover,
+.footer-contact:focus {color:var(--accent-color)}
+
+/* ..................footer background color.......................................................... */
+
+
+
+
+
+/* ....................button........................................................... */
+
+
+.button {
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color:var(--second-btn-color);
+    background-color:var(--maine-btn-color) ;
+}
+
+.button {cursor: pointer;}
+
+.pointer:hover,
+.pointer:focus {
+    color: var(--main-title-color);
+    background-color: var(--accent-color);
+}
+
+
+/* ..................logo........................................................... */
+
+
+.link-logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+.half-logo {color: var(--second-title-color);} 
+
+
+
+/* .................container........................................................... */
+
+
+.container {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    
+}
+
+
+
+/* .................heder........................................................... */
+
+/*............... page-header......................................................... */
+
+.page-header {
+    border: 1px solid var(--border-card-color);
+    
+
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+}
+
+.header-item:not(:last-child) {margin-right: 50px;}
+
+.header-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--second-title-color)
+    }
+
+.list-contacts {
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.contact:not(:last-child) {margin-right: 50px;}
+
+.link-contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--main-text-color)
+    }
+
+
+
+/* ...................page one hero........................................................... */
+
+.hero {
+    background-color:var(--background-work-color)
+}
+
+.hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--background-page-color);
+}
+
+
+.section-team {background-color: var(--background-team-color);}
+
+
+.hero-title {
+    margin-bottom: 40px;
+        
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--main-title-color);
+    /* background-color:var(--background-page-color); */
+    
+}
+
+.maine-btn {
+    display: block;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    
+    font-family: Roboto;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+
+/* .....................section........................................................... */
+
+
+
+
+.section-work {
+    padding-top: 0;
+}
+
+
+
+/* ........................maine-item................................................ */
+
+
+.maine-box {
+    display: flex;
+}
+
+.maine-items {
+    display: flex;
+}
+
+.maine-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+/* .....................maine-subtitle........................................................... */
+
+
+.maine-subtitle {
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
+
+/* .....................maine-text........................................................... */
+
+
+.maine-text {
+    margin-top: 10px;
+    width: 270px;
+    height: 75px;
+    
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-text-color);
+}
+
+
+/* ......................heding........................................................... */
+
+
+.heding {
+
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color:var(--second-title-color)
+}
+
+/* .......................works-list....................................... */
+
+
+    .works-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100%-60)/3);
+}
+
+/* .......................work-list.......................................... */
+
+
+.work-list:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+/* ......................list-position........................................................... */
+
+
+.list-position {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100%-90px)/4);
+}
+
+/* ......................title-name........................................................... */
+
+
+.title-name {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--second-title-color);
+    text-align: center;
+}
+
+
+/* ......................position........................................................... */
+
+
+.list-item:not(:nth-child(4n)) { margin-right: 30px;}
+
+
+/* ..................обвёртка сотрудников....................... */
+
+
+.card-wrapp {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--third-text-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.position {
+    
+    padding-top: 10px;
+    
+    font-size: 16px;
+    line-height: 1.19;
+    color:var(--main-text-color);
+    text-align: center;
+}
+
+
+/* ...................maine page-two........................................................... */
+
+
+.two-page {background-color: var(--third-text-color);}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.button {
+    padding: 6px 20px; 
+    
+}
+
+.buttons .item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+    
+}
+
+.gallery-list .gallery-item {
+
+    flex-basis: calc(100%/3-30px);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
+.card-content {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+.gallery-name {
+    margin-top: 20px;
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--second-btn-color)
+}
+
+.dropdown {
+    margin-top: 4px;
+    
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--main-text-color)
+}
+
+/* .....................footer........................................................... */
+
+.footer {background-color:var(--background-page-color)} 
+
+.footer-logo {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+.footer-list {
+    margin-top: 20px;
+    padding-bottom: 60px;
+    
+}
+
+.link-point {
+    
+    font-style: normal;   
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--third-text-color)
+}
+
+.footer-contact {
+    display: block;
+    padding-top: 9px;
+    font-style: normal;  
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--second-text-color)
+}
+
+
+
+
+
+
+
