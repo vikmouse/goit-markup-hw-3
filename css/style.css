@@ -91,11 +91,6 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {color:var(--accent-color)}
 
-/* ..................footer background color.......................................................... */
-
-
-
-
 
 /* ....................button........................................................... */
 
@@ -216,9 +211,7 @@ body {
 
 /* ...................page one hero........................................................... */
 
-.hero {
-    background-color:var(--background-work-color)
-}
+
 
 .hero-section {
     padding-top: 200px;
@@ -240,8 +233,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color:var(--main-title-color);
-    /* background-color:var(--background-page-color); */
-    
+
 }
 
 .maine-btn {
@@ -333,7 +325,7 @@ body {
     .works-list {
     display: flex;
     flex-wrap: wrap;
-    width: calc((100%-60)/3);
+    
 }
 
 /* .......................work-list.......................................... */
@@ -347,8 +339,7 @@ body {
 
 .list-position {
     display: flex;
-    flex-wrap: wrap;
-    width: calc((100%-90px)/4);
+    
 }
 
 /* ......................title-name........................................................... */
