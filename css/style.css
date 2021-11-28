@@ -103,7 +103,8 @@ body {
     line-height: 1.62;
     color:var(--second-btn-color);
     background-color:var(--maine-btn-color) ;
-}
+    border-style: none
+;}
 
 .button {cursor: pointer;}
 
@@ -238,10 +239,12 @@ body {
 
 .maine-btn {
     display: block;
+    padding: 10px 32px;
     margin-top: 0;
     margin-right: auto;
     margin-bottom: 0;
     margin-left: auto;
+    
     
     font-family: Roboto;
     font-weight:700;
@@ -346,7 +349,7 @@ body {
 
 
 .title-name {
-    padding-top: 30px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -394,13 +397,13 @@ body {
     margin-bottom: 56px;
 }
 
-.button {
-    padding: 6px 20px; 
-    
-}
-
 .buttons .item:not(:last-child) {
     margin-right: 8px;
+}
+
+.button {
+    padding: 6px 22px; 
+    
 }
 
 .gallery-list {
@@ -447,17 +450,20 @@ body {
 
 /* .....................footer........................................................... */
 
-.footer {background-color:var(--background-page-color)} 
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:var(--background-page-color)
+} 
 
 .footer-logo {
     display: block;
-    padding-top: 60px;
-    padding-bottom: 0;
+    padding: 0;
+    margin: 0 0 20px 0;
 }
 
-.footer-list {
-    margin-top: 20px;
-    padding-bottom: 60px;
+.footer-list .item:not(:last-child) {
+    margin-bottom: 9px;
     
 }
 
@@ -470,8 +476,7 @@ body {
 }
 
 .footer-contact {
-    display: block;
-    padding-top: 9px;
+
     font-style: normal;  
     font-size: 14px;
     line-height: 1.71;
